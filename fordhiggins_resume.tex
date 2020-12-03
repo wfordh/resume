@@ -1,0 +1,125 @@
+% LaTeX resume using res.cls
+\documentclass[line, margin]{res}
+%\usepackage{helvetica} % uses helvetica postscript font (download helvetica.sty)
+%\usepackage{newcent}   % uses new century schoolbook postscript font 
+\usepackage{enumitem}
+\setlist[itemize]{noitemsep, topsep=0pt}
+\usepackage{hyperref}
+\usepackage{beramono}
+
+\setlength{\parskip}{0pt}
+\setlength{\parsep}{0pt}
+\setlength{\headsep}{0pt}
+\setlength{\topskip}{0pt}
+\setlength{\topmargin}{0pt}
+\setlength{\topsep}{0.5pt}
+\setlength{\partopsep}{0.5pt}
+\setlength{\textwidth}{5.1in} % set width of text portion
+
+\begin{document}
+
+\name{\Large Ford Higgins}
+
+\begin{resume}
+	
+	
+\section{Contact \\ Information}
+	+1 925 336 7529       \hfill \href{https://linkedin.com/in/wfordh/}{linkedin.com/in/wfordh} \\
+	\noindent higgins.ford@gmail.com  \hfill \href{https://github.com/wfordh}{github.com/wfordh} \\
+	\noindent San Francisco, CA 94108
+	% \noindent Charlotte, NC 28226
+	
+
+\section{Work\\Experience}
+	\textbf{Scoop Technologies} \hfill{San Francisco, CA} \vspace{1 mm}\\\vspace{0.5mm}%
+	\textsl{Data Analyst} \hfill{January 2019 -- November 2020}\
+	\begin{itemize}
+		\item Improved the monthly reporting process from a manual task to a semi-automated one with Python scripts, the Google Drive API, and Airflow.
+		\item Collaborated with most teams at Scoop on projects such as creating Periscope dashboards using SQL, modeling user value for Finance, pulling targeting email lists for Marketing, and launching Diversity, Equity, and Inclusion initiatives.
+		\item Worked with Product, Design, and Engineering on new features by defining KPIs, creating analytics events, and analyzing post-launch performance.
+		\item Developed a custom geo-visualization to help the Sales team with a Python script using the Google Maps API, transit data, and Uber's Kepler.gl.
+	\end{itemize}\
+	
+	\textbf{Bracket Voodoo/Lot 10 Sports} \hfill{San Francisco, CA} \vspace{1mm}\\\vspace{0.5mm}%
+	\textsl{Data Science Intern} \hfill {October 2017 -- October 2018}\
+	\begin{itemize}
+		\item Created a new football metric measuring field control, with analysis from the 2017 NCAA season using Pandas, Plotly, and Seaborn.
+		\item Improved the predictive accuracy of NCAA basketball statistical systems to 75\% using a hierarchical Bayesian regression model with Pandas and SciKit-Learn.
+		% \item Ranked, verified, and assessed the accuracy of the basketball systems using Pandas, Matplotlib, and MySQL.
+		\item Classified NCAA football teams as part of a project creating a 'football genome' using Pandas, Matplotlib, and PostgreSQL.
+	\end{itemize}\
+
+	\textbf{NBA} \hfill{Secaucus, NJ} \vspace{1mm}\\\vspace{0.5mm}%
+	\textsl{Game Reviewer} \hfill {September 2016 -- June 2017}\
+	\begin{itemize}
+		\item Reviewed and evaluated referee performance in NBA games, including the NBA Playoffs, based on the quality and correctness of their calls and non-calls.
+		%\item Periodically reviewed the last two minutes of close games as the first step of the Last 2 Minute review process. %, where attention to detail was imperative since the final product is public.
+	\end{itemize}\
+	
+	\textbf{Dallas Mavericks} \hfill{Dallas, TX} \vspace{1mm}\\\vspace{0.5mm}%
+	\textsl{Analytics Intern} \hfill {October 2015 -- June 2016}\
+	\begin{itemize}
+		\item Tracked proprietary stats to supplement standard NBA statistics. %Charted the stats alongside play-by-play data.
+	\end{itemize}
+	
+	
+\section{Education}
+	\textbf{University of San Francisco}, San Francisco, CA \vspace{1mm}\\\vspace{1mm}
+	\textsl{MS, Data Science} \hfill {July 2017 -- June 2018}\
+
+	\textbf{Davidson College}, Davidson, NC \vspace{1mm}\\\vspace{-1mm}
+	\textsl{BS, Mathematics} \hfill {August 2010 -- May 2014}
+
+
+\section{Projects}
+	\textbf{Parking Availability in San Francisco} \hfill{March 2018}
+	\begin{itemize}
+		\item Predicted parking availability using public data from sensors and parking meters in addition to a proprietary dataset.
+		\item Employed gradient boosting models (LightGBM, XGBoost, and CatBoost) and random forest classifiers to fit the data before optimizing the hyperparameters. %Tuned hyperparameters and performed feature engineering to optimize results.
+	\end{itemize} \
+
+	\textbf{Prediction of Canadian Bankruptcy Rates} \hfill{December 2017}
+	\begin{itemize}
+		\item Forecasted Canadian bankruptcy rates using financial time-series data using SARIMAX, VAR, and Holt-Winters methods.
+	\end{itemize}
+ 
+\section{Coursework, \\ Languages, \\ and Tools} 
+	% \textbf{Skills} \vspace{1mm}\\\vspace{0.5mm}
+	% if need more space, put the subtitles (Coursework, Lang, Tools) on the line with the bullet. 
+	\textbf{Coursework} \
+	\begin{itemize}
+		\item Machine Learning. Design of Experiments. Statistics. Distributed Computing. Regression Analysis. Linear Algebra. Data Visualization. 
+		% Cryptology.
+		% Computational Statistics.
+		% Numerical Methods.
+		% Probability and Statistics.
+	\end{itemize}
+	\textbf{Languages} \
+	\begin{itemize}
+		\item Python (Pandas, NumPy, scikit-learn), R (Tidyverse, ggplot2), SQL (PostgreSQL, Redshift), Git %, Bash %, Java %CSS, HTML %, Java % PyTorch, Flask, Jinja, Plotly
+	\end{itemize} 
+	\textbf{Tools} \
+	\begin{itemize}
+		\item Periscope, AWS, Github, Airflow, Google Maps and Drive APIs, Kepler.gl, Jupyter Notebooks, Excel
+	\end{itemize}
+		
+\section{Leadership}
+	% \textbf{Davidson Men's Basketball}, Davidson, NC \vspace{1mm}\\\vspace{0.5mm}%
+	% \textsl{Head Student Manager} \
+	% \begin{itemize}
+	%   \item  Four-year student manager; promoted to head manager prior to senior season.
+	% \end{itemize}
+	% \textbf{Boy Scouts} \vspace{1mm}\\\vspace{1mm}%
+	% \textbf{Eagle Scout} \hfill {May 2010}
+	Eagle Scout \hfill {May 2010}
+	% \begin{itemize}
+	%   \item Earned rank of Eagle in May of 2010 and Bronze Palm in August of 2010.
+	% \end{itemize}
+
+
+\end{resume}
+\end{document}
+
+
+
+
