@@ -6,3 +6,5 @@ Projects:
 - [NBA G League DRE App](https://fordhiggins.shinyapps.io/dre_app/)
 - Ottoneu Auction Tools: [Webpage](https://wfordh.github.io/ottoneu_auctions/) and [code](https://github.com/wfordh/ottoneu_auctions)
 - [Fantasy Football Tools](https://github.com/wfordh/fantasy_football_projections)
+
+[Personal Blog](https://fordhiggins.com)
